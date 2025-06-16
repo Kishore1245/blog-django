@@ -87,12 +87,12 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME' : 'blogapp_db',
-        'USER' : 'blogapp_db_tdeg_user',
-        'PASSWORD' : 'agq82PPiYN9Ai5pbogcSzUk7LTbWwG53',
-        'HOST' : 'dpg-d1819sggjchc73f94j10-a',
-        'PORT' : '5432'
+        'USER' : 'root',
+        'PASSWORD' : 'kishore',
+        'HOST' : 'localhost',
+        'PORT' : '3306'
     }
 }
 
@@ -177,3 +177,4 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 LOGIN_URL='/login'
+
