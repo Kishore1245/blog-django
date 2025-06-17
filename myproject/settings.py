@@ -70,7 +70,7 @@ DATABASES = {
         'NAME': os.environ.get('DB_NAME', 'blogapp_db'),  # Use environment variable
         'USER': os.environ.get('DB_USER', 'root'),        # Use environment variable
         'PASSWORD': os.environ.get('DB_PASSWORD', 'kishore'),  # Use environment variable
-        'HOST': os.environ.get('DB_HOST', 'localhost'),    # Use environment variable
+        'HOST': os.environ.get('DB_HOST', 'root@127.0.0.1:3306.render.com'),    # Use environment variable
         'PORT': os.environ.get('DB_PORT', '3306'),         # Use environment variable
     }
 }
